@@ -13,29 +13,29 @@
 
 
 /* includes */
-
+#include<iostream>
 
 
 
 /* function declarations */
+int multiplication(int, int);
 
 
 int main(){
 
+    int result = 0;
 
+    result = multiplication(10, 20);
 
-
-
-
-
-
-
+    std::cout << "The result is: " << result << '\n';
 
 
 }
 
 /* function definitions */
-
+int multiplication(int x, int y){
+    return(x * y);
+}
 
 
 
